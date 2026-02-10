@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>soma</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZGF_SOMATOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZGF_SOMA</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZF_SOMA</FUNCNAME>
+     <SHORT_TEXT>soma</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ID_NUM1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ID_NUM2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ED_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ID_NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº inteiro com sinal 4 bytes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ID_NUM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº inteiro com sinal 4 bytes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ED_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº inteiro com sinal 4 bytes</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
